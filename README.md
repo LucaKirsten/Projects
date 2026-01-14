@@ -2,7 +2,7 @@
 
 This repository contains my final-year engineering project: a **vision-based tracking and localization system** for an **F1/10 autonomous vehicle**, using an **overhead camera** to localize the car within a **self-generated occupancy grid map**.
 
-The project focuses on **practical visual localization** and **map construction** from real camera data, without relying on probabilistic filtering frameworks.
+The project focuses on **practical visual localization** and **map construction** from real camera data, without relying on probabilistic filtering frameworks. The original repo must still be cleaned before the full code and context is uploaded.
 
 ---
 
@@ -45,7 +45,7 @@ Vehicle Localization (Grid Coordinates)
 
 ### Overhead Vision Input
 
-* Fixed overhead camera view of the track
+* Oscillating camera provides partial overhead camera views of the track
 * Frame preprocessing and perspective handling
 * Assumption of a planar track surface
 
